@@ -25,7 +25,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Writing All Your Styles Inline to Reduce HTTP Requests',
+	message: 'Writing All Your Styles Inline to <em>Reduce</em> HTTP Requests',
 	example: [
 		'<html>',
 		'	<head>',
@@ -42,9 +42,48 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Never Leave An IMG Tag Unclosed',
+	message: '<em>Never</em> Leave An IMG Tag Unclosed',
 	example: [
 		'<img src="my-corporate-logo.gif"></img>'
+	]
+});
+
+tips.push({
+	author: 'bentruyman',
+	message: 'Writing All Tags and Attributes in Uppercase for <em>Readability</em>',
+	example: [
+		'<DIV ID="ContainerWrapper">',
+		'	<P>',
+		'		This is a paragraph example.',
+		'		<A HREF="/HomePage.htm" TARGET="_blank"></A>',
+		'	</P>',
+		'</DIV>'
+	]
+});
+
+tips.push({
+	author: 'bentruyman',
+	message: 'Liberal Use of <em>Documentation</em> to Describe Sections of Content',
+	example: [
+		'<!-- CONTAINER START: Container holds all the content-->',
+		'<div id="global_content-Container">',
+		'	<!-- CONTAINER|WELCOME START: Describe the website for users-->',
+		'	<p id="global_content-Container-Welcome">',
+		'		Welcome to our new home page.',
+		'	</p> <!-- CONTAINER|WELCOME END -->',
+		'</div><!-- CONTAINER END -->'
+	]
+});
+
+tips.push({
+	author: 'bentruyman',
+	message: '<em>Never</em> Use Relative URLs As the Root Domain May Change',
+	example: [
+		'<a href="../../HomePage.htm">Home Page</a><br>',
+		'<a href="./PrivacyPolicy.htm">Privacy Policy</a><br>',
+		'<a href="./Products/Gallery.htm">Our Products</a><br>',
+		'<a href="./ContactOurTeam.htm">Contact Our Sales Team</a><br>',
+		'<a href="../index.htm">Go back</a>'
 	]
 });
 
