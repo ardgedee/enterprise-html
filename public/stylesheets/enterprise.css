@@ -39,8 +39,12 @@ em {
 }
 
 #prefix {
+	color: #999;
 	font-size: 24px;
-	opacity: 0.3;
+}
+
+#prefix a {
+	text-decoration: none;
 }
 
 #message {

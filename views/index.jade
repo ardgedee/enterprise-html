@@ -1,10 +1,12 @@
-#prefix.shadowed.upper="Enterprise HTML Is:"
+#prefix.shadowed.upper
+  a.special(href="/")="Enterprise HTML"
+  =" Is:"
 #message.shadowed.upper!=tip.message
 code#example
   pre!=tip.example
 p#author="Submitted by: "
-  a(href="http://twitter.com/#/" + tip.author)=tip.author 
+  a.special(href="http://twitter.com/#/" + tip.author)=tip.author 
 p#permalink
   a(href="/" + index)="Permalink"
 style
-  | #author a, em { color: ##{color}; }
+  | .special, em { color: ##{color}; }

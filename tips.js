@@ -23,4 +23,9 @@ tips.push({
 	]
 });
 
+// tips.push({
+// 	author: 'bentruyman',
+// 	message: ''
+// });
+
 module.exports = tips;
