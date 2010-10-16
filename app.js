@@ -1,3 +1,4 @@
+process.chdir(__dirname);
 require.paths.push('/usr/local/lib/node');
 
 var express = require('express')
