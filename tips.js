@@ -77,7 +77,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: '<em>Never</em> Use Relative URLs As the Root Domain May Change',
+	message: '<em>Never</em> Use Absolute URLs As the Underlying Path May Change',
 	example: [
 		'<a href="../../HomePage.htm">Home Page</a><br>',
 		'<a href="./PrivacyPolicy.htm">Privacy Policy</a><br>',
