@@ -42,7 +42,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: '<em>Never</em> Leave An IMG Tag Unclosed',
+	message: '<em>Never</em> Leaving An IMG Tag Unclosed',
 	example: [
 		'<img src="my-corporate-logo.gif"></img>'
 	]
@@ -63,7 +63,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Liberal Use of <em>Documentation</em> to Describe Sections of Content',
+	message: 'Liberally Using <em>Documentation</em> to Describe Sections of Content',
 	example: [
 		'<!-- CONTAINER START: Container holds all the content-->',
 		'<div id="global_content-Container">',
@@ -77,7 +77,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: '<em>Never</em> Use Absolute URLs As the Underlying Path May Change',
+	message: '<em>Never</em> Using Absolute URLs As the Underlying Path May Change',
 	example: [
 		'<a href="../../HomePage.htm">Home Page</a><br>',
 		'<a href="./PrivacyPolicy.htm">Privacy Policy</a><br>',
