@@ -13,7 +13,7 @@ tips.push({
 });
 
 tips.push({
-	author: 'bentruyman',
+	author: 'unknown',
 	message: 'Using <em>All</em> of the XHTML doctypes',
 	example: [
 		'<!DOCTYPE html PUBLIC',
@@ -23,9 +23,29 @@ tips.push({
 	]
 });
 
-// tips.push({
-// 	author: 'bentruyman',
-// 	message: ''
-// });
+tips.push({
+	author: 'bentruyman',
+	message: 'Writing All Your Styles Inline to Reduce HTTP Requests',
+	example: [
+		'<html>',
+		'	<head>',
+		'		<link href="global.css" rel="stylesheet" /> <!-- BAD!! -->',
+		'		<style>',
+		'			#wrapper {',
+		'				...',
+		'			}',
+		'		</style> <!-- GOOD!! -->',
+		'	</head>',
+		'</html>'
+	]
+});
+
+tips.push({
+	author: 'bentruyman',
+	message: 'Never Leave An IMG Tag Unclosed',
+	example: [
+		'<img src="my-corporate-logo.gif"></img>'
+	]
+});
 
 module.exports = tips;
