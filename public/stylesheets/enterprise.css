@@ -71,6 +71,17 @@ em {
 	margin-right: 20px;
 }
 
+#fork {
+	right: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+#fork:hover {
+	opacity: 0.75;
+}
+
 code .comment { color: #999; }
 code .doctype { color: #666; }
 code .tag { color: #333; }
