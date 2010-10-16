@@ -26,13 +26,13 @@ tips.forEach(function (tip) {
 
 // Routes
 app.get('/', function (req, res) {
-	showTip(res, Math.floor(Math.random() * tips.length));
+	showTip(res, Math.ceil(Math.random() * tips.length));
 });
 
 app.get('/:permalink', function (req, res) {
 	var index = req.params.permalink;
 
-	if (tips[index]) {
+	if (tips[index - 1]) {
 		showTip(res, index);
 	} else {
 		res.redirect('/');
@@ -42,7 +42,7 @@ app.get('/:permalink', function (req, res) {
 function showTip (res, index) {
 	res.render('index.jade', {
 		locals: {
-			tip: tips[index],
+			tip: tips[index - 1],
 			color: colors[Math.floor(Math.random() * colors.length)],
 			index: index
 		}
