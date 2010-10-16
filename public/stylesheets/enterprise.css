@@ -71,7 +71,8 @@ em {
 	margin-right: 20px;
 }
 
-code .doctype	{ color: #666; }
+code .comment { color: #999; }
+code .doctype { color: #666; }
 code .tag { color: #333; }
 code .tag .keyword { color: #f92672; }
 code .tag .attribute { color: #a6e22e; }
