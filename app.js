@@ -14,7 +14,7 @@ app.configure(function () {
 });
 
 // Colors
-var colors = 'ff0090,ffff00,0bff00,022bca,08e3ff,ff460d'.split(',');
+var colors = 'ff0090,ffff00,0bff00,08e3ff,ff460d'.split(',');
 
 // Tips
 var tips = require('./tips');
