@@ -97,4 +97,9 @@ tips.push({
 	message: 'Requiring a Conference Call With the Contractor, the American Employee of the American Company, and an Employee of Their Own Indian Subcontracting Company in Order to Explain the <em>iframe-in-iframe</em> Functionality'
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: 'Using <a href="http://html6.by.ru/">HTML6</a>'
+});
+
 module.exports = tips;
