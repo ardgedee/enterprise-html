@@ -89,12 +89,12 @@ tips.push({
 
 tips.push({
 	author: 'zetafleet',
-	message: 'Using iframes to Include 3rd Party Microsites'
+	message: 'Using iframes to Include <em>3rd Party</em> Microsites'
 });
 
 tips.push({
 	author: 'zetafleet',
-	message: 'Requiring a Conference Call With the Contractor, the American Employee of the American Company, and an Employee of Their Own Indian Subcontracting Company in Order to Explain the iframe-in-iframe Functionality'
+	message: 'Requiring a Conference Call With the Contractor, the American Employee of the American Company, and an Employee of Their Own Indian Subcontracting Company in Order to Explain the <em>iframe-in-iframe</em> Functionality'
 });
 
 module.exports = tips;
