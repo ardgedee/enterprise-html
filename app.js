@@ -21,8 +21,10 @@ var tips = require('./tips');
 
 // Make 'em sexy
 tips.forEach(function (tip) {
-	tip.example = hl(tip.example.join('\n'));
-});
+	if (tip.example) {
+		tip.example = hl(tip.example.join('\n'));
+	}
+}); 
 
 // Routes
 app.get('/', function (req, res) {

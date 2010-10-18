@@ -87,4 +87,9 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'snover',
+	message: 'Using iframes to Include 3rd Party Microsites'
+});
+
 module.exports = tips;
