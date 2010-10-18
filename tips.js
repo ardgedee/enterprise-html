@@ -99,7 +99,7 @@ tips.push({
 
 tips.push({
 	author: 'bentruyman',
-	message: 'Using <a href="http://html6.by.ru/">HTML6</a>'
+	message: 'Using <a href="http://html6.by.ru/">HTML6</a> Like A Boss'
 });
 
 module.exports = tips;
