@@ -102,4 +102,29 @@ tips.push({
 	message: 'Using <a href="http://html6.by.ru/">HTML6</a> Like A Boss'
 });
 
+tips.push({
+	author: 'ardgedee',
+	message: 'Tables-fu',
+	example: [
+		'<table border="0" cellspacing="0" cellpadding="2" width="100%">'
+		'    <tbody>'
+		'        <tr>'
+		'            <td colspan="2" class="p" width="634">This week's production meeting agenda:</td>'
+		'            <td>&nbsp;</td>'
+		'        </tr>'
+		'        <tr>'
+		'            <td class="li_bullet" valign="top" width="15" align="left">&bull;</td>'
+		'            <td valign="top" width="615" class="li"><table><tr><td class="bold"><marquee>Server performance issues</marquee></td></tr></table></td>'
+		'            <td>&nbsp;</td>'
+		'        </tr>'
+		'        <tr>'
+		'            <td class="li_bullet" valign="top" width="15" align="left">&bull;</td>'
+		'            <td valign="top" width="615" class="li">Revised coding standards progress report</td>'
+		'            <td>&nbsp;</td>'
+		'        </tr>'
+		'    </tbody>'
+		'</table>'
+	]
+});
+
 module.exports = tips;
